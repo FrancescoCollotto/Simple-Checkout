@@ -1,6 +1,6 @@
 class Item
   attr_reader :price
   def initialize(price)
-    @price = price
+    @price = price.to_f
   end
 end
